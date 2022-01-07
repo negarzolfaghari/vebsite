@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <![endif]-->
+</head>
+<body>
+<div id="slideshow">
+    <div class="cover-meno">
+        <div class="container">
+            <div class="row">
+                <nav class="navbar col-lg-8 col-md-9 col-sm-9 col-xs-8" >
+
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#am">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="am">
+                        <ul class=" nav navbar-nav">
+                            <li><a href="#">صفحه اصلی</a></li>
+                            <li><a href="#"> اموزش</a></li>
+                            <li><a href="#">خدمات </a></li>
+                            <li><a href="#">تماس با ما </a></li>
+                            <li><a href="#">درباره ما </a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+        </div>
+    </div>
+    <ul id="slider">
+        <li class="slide1">
+<!--            <div class="container">-->
+<!--                <div class="h">-->
+<!--                    <h2>طراحی سایت با بوت استرپ</h2>-->
+<!--                    <p> با سلام خدمت دوستان محترم</p>-->
+<!--                </div>-->
+<!--            </div>-->
+        </li>
+        <li class="slide2"></li>
+
+    </ul>
+</div>
+        <!--<div class="container">-->
+            <!--<div class="row">-->
+
+				<!--<div class=" col-lg-4 col-md-3 col-sm-3 col-xs-4" >-->
+				<!--<div class="btn-group">-->
+                     <!--<button type="button" class="btn btn-warning">پنل کاربری</button>-->
+                     <!--<button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+                        <!--<span class="caret"></span>-->
+                        <!--<span class="sr-only">Toggle Dropdown</span>-->
+                     <!--</button>-->
+                             <!--<ul class="dropdown-menu">-->
+                                            <!--<li><a href="#">ورود کاربر</a></li>-->
+                                          <!--<li><a href="#">عضویت</a></li>-->
+                                            <!--<li><a href="#">تغییر رمز</a></li>-->
+                                       <!--<li role="separator" class="divider"></li>-->
+                                        <!--<li><a href="#">ویرایش</a></li>-->
+                             <!--</ul>-->
+               <!--</div>-->
+				<!--</div>	-->
+    <!---->
+            <!--</div>-->
+        <!--</div>-->
+
+    <!--</ul>-->
+
+
+    <!--<ul id="slider">-->
+        <!--<li>-->
+            <!--<div class="slide1">-->
+               <!--<div class="container">-->
+                   <!--<div class="co">-->
+                       <!--<h2> طراحی سایت با بوت استرپ</h2><hr>-->
+                       <!--<p>  با عرض سلام و خسته نباشید خدمت شما عزیزان من ایمان مداعنی خر هستم با اون مدل حرف زدنم </p>-->
+                       <!--<i class="fas fa-search"></i>-->
+                   <!--</div>-->
+
+               <!--</div>-->
+            <!--</div>-->
+        <!--</li>-->
+        <!--<li>-->
+            <!--<div class=" slide2">-->
+               <!--<div class="container">-->
+                <!--<div class="co">-->
+                    <!--<h2>طراحی سایت با بوت استرپ</h2>-->
+                    <!--<p>ززرنزنید </p>-->
+                    <!--<i class="fas fa-search"></i>-->
+                <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</li>-->
+    <!--</ul>-->
+	<!--</div>-->
+	<!---->
+
+<!--<div class="servise">-->
+     <!--<div class="container">-->
+	    <!--<h4><i class="fas fa-briefcase"></i> خدمات ما</h4>-->
+		 <!--<h5>با عرش سلام و خسته نباشی خدمت شما عزیزان اتهی که قربونم برید همگی</h5>-->
+		 <!---->
+		 <!---->
+	<!--</div>-->
+	<!---->
+<!--</div> */-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/responsiveslides.min.js"></script>
+<script language="JavaScript">
+    $(document).ready(function(e){
+        $("#slider").responsiveSlides({
+            auto: false,             // Boolean: Animate automatically, true or false
+            speed: 500,            // Integer: Speed of the transition, in milliseconds
+            timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
+            pager: false,           // Boolean: Show pager, true or false
+            nav: false,             // Boolean: Show navigation, true or false
+            random: false,          // Boolean: Randomize the order of the slides, true or false
+            pause: false,           // Boolean: Pause on hover, true or false
+            pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+            prevText: "Previous",   // String: Text for the "previous" button
+            nextText: "Next",       // String: Text for the "next" button
+            maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
+            navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
+            manualControls: "",     // Selector: Declare custom pager navigation
+            namespace: "slides",   // String: Change the default namespace used
+            before: function(){},   // Function: Before callback
+            after: function(){}
+        });
+    });
+</script>
+
+</body>
+</html>
